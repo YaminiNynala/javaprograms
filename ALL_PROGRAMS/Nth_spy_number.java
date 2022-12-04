@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class Nth_spy_number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter n value to print nth spy number");
+		int n = scan.nextInt();
+		int x=1;
+		int spycount=1;
+		
+		while (spycount<=n)
+		{
+			int temp = x;
+			int sum=0;
+			int product=1;
+			int lastdigit=0;
+            while (x!=0)
+            {
+				lastdigit=x%10;
+				sum=sum+lastdigit;
+				product=product*lastdigit;
+				x=x/10;
+            }
+			x=temp;
+			if (sum==product)
+			{
+				if (spycount==n)
+				{
+					System.out.println(x);
+				}
+				spycount++;
+			}
+			x++;
+		}
+	}
+}
