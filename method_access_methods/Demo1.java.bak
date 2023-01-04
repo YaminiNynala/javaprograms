@@ -1,0 +1,23 @@
+class  Demo1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main starts");
+		Demo1 d1 = new Demo1();
+		d1.smash();
+		System.out.println("main starts");
+	}
+	public void smash()
+	{
+		System.out.println("smash starts");
+		pass();
+		System.out.println("smash ends");
+	}
+	public static void pass() 
+	{
+		System.out.println("pass starts");
+		System.out.println("pass ends");
+	}
+	
+}
+

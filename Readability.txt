@@ -1,0 +1,14 @@
+Ways to improve readability
+------------------------------------->
+
+1. Follow Naming Format
+       a. Class name should follow pascal casing.
+       b. Variable name should follow camel casing.
+       c. Method name should follow camel casing.
+    
+2. Provide proper understandable classname, variablename, methodname
+       a. Class name is provided based on the program.
+       b. Variable name is provided based on the data.
+       c. Method name is provided based on the operation.
+
+3. Make use of concat operator to design readable output.

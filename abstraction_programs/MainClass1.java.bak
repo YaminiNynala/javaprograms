@@ -1,0 +1,9 @@
+class MainClass1
+{
+	public static void main(String[] args) 
+	{
+		//Run r1 = new Run();
+		Sample rv = Run.getObject();
+		rv.test();
+	}
+}

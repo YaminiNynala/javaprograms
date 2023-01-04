@@ -1,0 +1,14 @@
+class CostPriceOfBook 
+{
+	public static void findCostPrice(double x,double y)
+	{
+		double costPrice = x-y;
+		System.out.println("Selling price : "+x);
+		System.out.println("Profit : "+y);
+		System.out.println("Cost price : "+costPrice);
+	}
+	public static void main(String[] args) 
+	{
+		findCostPrice(200,50.5);
+	}
+}

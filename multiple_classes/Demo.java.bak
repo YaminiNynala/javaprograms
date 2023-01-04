@@ -1,0 +1,20 @@
+class Sample 
+{
+	public static void walk() 
+	{
+		System.out.println("walk 5 km");
+	}
+	public void run() 
+	{
+		System.out.println("run 10 km");
+	}
+}
+class Demo
+{
+	public static void main(String [] args)
+	{
+		Sample.walk();
+		Sample s1 = new Sample();
+		s1.run();
+	}
+}

@@ -1,0 +1,19 @@
+class  Demo
+{
+	public static void main(String[] args) 
+	{
+		walk();
+	}
+	public static void walk() 
+	{
+		System.out.println("walk starts");
+		Demo d1 = new Demo();
+		d1.run();
+		System.out.println("walk ends");
+	}
+	public void run() 
+	{
+		System.out.println("run starts");
+		System.out.println("run ends");
+	}
+}

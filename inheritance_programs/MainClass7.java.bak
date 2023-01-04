@@ -1,0 +1,32 @@
+class P
+{
+	Public int i =100;
+	public void greet()
+	{
+		System.out.println(i);
+	}
+}
+class Q extends P
+{
+	public void display()
+	{
+		greet();
+	}
+}
+class R extends P
+{
+	public void details()
+	{
+		greet();
+	}
+}
+class MainClass7 
+{
+	public static void main(String[] args) 
+	{
+		Q q1 = new Q();
+		q1.display();
+		R r1 = new R();
+		r1.details();
+	}
+}

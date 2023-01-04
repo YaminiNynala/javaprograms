@@ -1,0 +1,36 @@
+class Employee
+{
+	public static String designation = "S/E";
+	public String empName;
+	public String company;
+	public int salary;
+	public int yoe;
+	public Employee(String a,String b,int c,int d)
+	{
+		empName = a;
+		company = b;
+		salary = c;
+		yoe = d;
+	}
+	public void details()
+	{
+		System.out.println("-------employee details-------");
+		System.out.println("Employee name is: "+empName)
+		System.out.println("Company is: "+company);
+		System.out.println("Designation is: "+designation);
+		System.out.println("Salary package is:"+salary);
+		System.out.println("Years of Experience is: "+yOE);
+	}
+}
+class MainClass5 
+{
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee("Anand","Optum",1300000,12);
+		Employee e2 = new Employee("Ganesh","Virtusa",450000,1);
+		Employee e3 = new Employee("Vijay";"Infosys",700000,6);
+		e1.details();
+		e2.details();
+		e3.details();
+	}
+}

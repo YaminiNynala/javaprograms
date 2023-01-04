@@ -1,0 +1,32 @@
+class Shape
+{
+	public void rotate()
+	{
+		System.out.println("rotate in clock-wise direction");
+	}
+}
+class Circle extends Shape
+{
+}
+class Rect extends Shape
+{
+	public void rotate()
+	{
+		System.out.println("rotate in anti clock-wise direction");
+	}
+}
+class Tri extends Shape
+{
+}
+class MainClass8 
+{
+	public static void main(String[] args) 
+	{
+		Circle c1 = new Circle();
+		Rect r1 = new Rect();
+		Tri t1 = new Tri();
+		c1.rotate();
+		r1.rotate();
+		t1.rotate();
+	}
+}

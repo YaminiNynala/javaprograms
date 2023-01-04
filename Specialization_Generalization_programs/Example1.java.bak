@@ -1,0 +1,45 @@
+/*class Student
+{ 
+	public static void details()
+	{
+		System.out.println(name+": yamini");
+		System.out.println(age+": 23");
+		System.out.println(place+": Ongole");
+	}
+}*/
+
+class Example1
+{
+	public String name;
+	public int age;
+	public String place;
+	public static void details()
+	{
+		System.out.println(name+": yamini");
+		System.out.println(age+": 23");
+		System.out.println(place+": Ongole");
+	}
+	public static void main (String [] args)
+	{
+		details();	
+	}
+}
+
+
+/*
+class Flower
+{
+	public static void garden(Flower f1)
+	{
+		System.out.println("yamini nynala");
+	}
+}
+class Example1 
+{
+	public static void main(String[] args) 
+	{
+		//Flower f1 = new Flower()
+		Flower.garden(new Flower());
+	}
+}
+*/

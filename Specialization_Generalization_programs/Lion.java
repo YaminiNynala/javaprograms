@@ -1,0 +1,55 @@
+class Lion extends WildAnimals
+{
+	public void roam() 
+	{
+		System.out.println("*****Lion*****");
+		System.out.println("Animals are roaming");
+	}
+} 
+
+class Tiger extends WildAnimals
+{
+	public void roam() 
+	{
+		System.out.println("*****Tiger*****");
+		System.out.println("Animals are roaming");
+	}
+
+} 
+
+class Cheetah extends WildAnimals
+{
+	public void roam() 
+	{
+		System.out.println("*****Cheetah*****");
+		System.out.println("Animals are roaming");
+	}
+
+} 
+
+
+/*
+class Lion extends WildAnimals
+{
+	public void name1(String name)
+	{
+		System.out.println(name);
+	}
+} 
+class Tiger extends WildAnimals
+{
+	public void name2(String name)
+	{
+		System.out.println(name);
+	}
+
+} 
+class Cheetah extends WildAnimals
+{
+	public void name3(String name)
+	{
+		System.out.println(name);
+	}
+
+} 
+*/

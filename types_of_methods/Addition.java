@@ -1,0 +1,17 @@
+class Addition 
+{
+	public void add(int n1,int n2)
+	{
+		int n3 =n1+n2;
+		System.out.println("number 1 : "+n1);
+		System.out.println("number 2 : "+n2);
+		System.out.println("sum is : "+n3);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main starts...");
+		Addition a1 = new Addition();
+		a1.add(10,5);
+		System.out.println("main ends...");
+	}
+}

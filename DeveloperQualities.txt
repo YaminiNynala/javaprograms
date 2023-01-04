@@ -1,0 +1,8 @@
+Qualities of Developer
+-------------------------------->
+
+1. Organize the programs using folders.
+
+2. Program should be Readable.
+
+3. Experiment the program to get New Ideas.
