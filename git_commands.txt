@@ -1,0 +1,16 @@
+username  -  yamininynala
+
+password  -  Yamini@4321
+
+git clone https://github.com/YaminiNynala/javaprograms.git
+
+git status
+
+git add file name/foldername --- After this step file will appear in green name by typing the git status
+
+git commit -m "our msg any name we want"
+
+git push origin main    (main is the branch name which is there in the git repository)
+
+
+
